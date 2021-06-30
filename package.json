@@ -1,5 +1,5 @@
 {
-  "name": "aws-thought",
+  "name": "aws-thoughts",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -14,9 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "if-env": "^1.0.4"
+    "aws-sdk": "^2.936.0",
+    "if-env": "^1.0.4",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "concurrently": "^5.1.0"
+    "concurrently": "^5.3.0"
   }
 }
